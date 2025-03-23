@@ -12,5 +12,10 @@ void input(){
         if (n <= 20 ){
             break;
         }
+        else{
+            cout << "\nArray anda masukkan maksimal 20 element. \n";
+        }
     }
+    cout << endl; // Membuat jarak per baris program
+    cout << "===========================" << endl; // Membuat tampilan susunan data pada array
 }
