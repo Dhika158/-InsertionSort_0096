@@ -44,3 +44,18 @@ void insertionSort(){ // Procedure InsertionSort
         arr [j+1] = temp; // step 5
     }
 }
+
+void display(){
+    cout << endl;
+    cout << "===========================" << endl;
+    cout << "Total Pass =" << n-1 << endl; // count element movement
+    cout << "===========================" << endl;
+    cout << "Element array yang telah tersusun" << endl;
+    cout << "===========================" << endl;
+
+    for (int j=0; j < n; j++)
+    {
+        cout << arr[j] << endl;
+    }
+    cout << endl;
+}
